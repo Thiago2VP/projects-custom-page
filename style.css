@@ -1,8 +1,8 @@
 :root {
     --text: #000000;
-    --accent: #045c33;
+    --accent: #000000;
     --bg-main: #fff;
-    --bg-repo: #f1f1f1;
+    --bg-repo: #F0F0F0;
     --bg-user: #e2e2e2;
 }
 
@@ -39,6 +39,7 @@ body {
 h1 {
     color: var(--accent);
     margin-bottom: 4px;
+    font-family: 'Permanent Marker', cursive;
 }
 
 small {
@@ -57,7 +58,7 @@ h2 {
 
 img {
     border: 2px solid var(--accent);
-    box-shadow: 0 0px 6px var(--accent), 0 0px 6px var(--accent);
+    box-shadow: 0 0px 8px var(--accent), 0 0px 8px var(--accent);
     max-width: 100%;
     height: auto;
 }
@@ -65,6 +66,7 @@ img {
 a {
     color: var(--accent);
     text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .github-img {
@@ -169,7 +171,7 @@ h3 {
 
 .repo-list li:hover {
     background-color: var(--bg-main);
-    box-shadow: 0 3px 6px var(--accent), 0 3px 6px var(--accent);
+    box-shadow: 0 4px 8px var(--accent), 0 3px 6px var(--accent);
 }
 
 .repo-list li a {
@@ -182,6 +184,7 @@ h3 {
 
 .repo-list li a:hover {
     background: var(--accent);
+    color: var(--bg-repo);
     border: 2px solid var(--text);
     transform: scale(1.1);
 }
